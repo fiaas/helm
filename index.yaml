@@ -2,11 +2,21 @@ apiVersion: v1
 entries:
   fiaas-mast:
   - apiVersion: v1
-    created: 2019-02-12T13:11:26.924549+01:00
+    created: 2019-02-12T13:46:36.013189+01:00
     description: Service that listens deployment requests from Spinnaker
     digest: 11a7b9a862452b3ad5f207e50f9df9958257ad124519f69034c2825ced57dc6f
     name: fiaas-mast
     urls:
     - https://fiaas.github.io/helm/fiaas-mast-0.4.0.tgz
     version: 0.4.0
-generated: 2019-02-12T13:11:26.923425+01:00
+  fiaas-skipper:
+  - apiVersion: v1
+    created: 2019-02-12T13:46:36.01358+01:00
+    description: Skipper controls deployment and updates of FIAAS components
+    digest: 7f86d9ef6f21d563c8109bc671a496f35a59fbd99ae718de8d89b01f6eef4df6
+    home: https://github.com/fiaas/skipper
+    name: fiaas-skipper
+    urls:
+    - https://fiaas.github.io/helm/fiaas-skipper-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-02-12T13:46:36.012152+01:00
